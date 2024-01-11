@@ -43,7 +43,7 @@ else
 fi
 
 uci -q batch << EOI
-set network.lan.ipaddr='192.168.5.1'
+set network.lan.ipaddr='192.168.2.1'
 commit network
 set system.@system[0].zonename='Asia/Shanghai'
 set system.@system[0].timezone='CST-8'
